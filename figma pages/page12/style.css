@@ -1,0 +1,176 @@
+body {
+  font-size: 18px;
+  line-height: calc(24 / 18);
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 1240px;
+}
+
+.footer {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background: #242464;
+  color: #fafaff;
+}
+
+.footer__cols {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__col--size-1 {
+  flex-basis: 15%;
+}
+
+.footer__col--size-2 {
+  flex-basis: 49.03%;
+}
+
+.footer__col--size-3 {
+  flex-basis: 31.91%;
+}
+
+/* .footer__cols--size-1 */
+
+.footer__logo {
+  display: flex;
+  margin-bottom: 35px;
+  justify-content: space-evenly;
+}
+
+.footer__logo a {
+  margin-right: 8px;
+}
+
+.socials__link-icon {
+  color: #fafaff;
+}
+
+.footer__logo-title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: calc(32 / 32);
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .footer__col--size-2 */
+
+.main-menu {
+  width: 179px;
+}
+
+.main-menu > li > a {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.sub-menu a {
+  color: #fafaff;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+li,
+a {
+  text-decoration: none;
+}
+
+/* footer__col--size-3 */
+
+/* nav */
+.nav-footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.nav-footer > ul {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.nav-footer > ul > li {
+  margin-bottom: 20px;
+  padding-left: 12px;
+  padding-right: 12px;
+  flex: 0 0 auto;
+  flex-basis: 33.31%;
+}
+
+.nav-footer > ul > li > a {
+  font-weight: 600;
+}
+
+.nav-footer ul ul {
+  margin-top: 10px;
+}
+
+.nav-footer ul ul li {
+  margin-bottom: 10px;
+}
+
+/* Form */
+
+.form {
+  position: relative;
+}
+
+.form__title {
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.form__field {
+  width: 100%;
+  color: #000000;
+  background: #fafaff;
+  padding: 0 16px;
+  height: 56px;
+  appearance: none;
+  border: 0;
+  border-radius: 8px;
+}
+
+.form::placeholder {
+  color: #5d5dc5;
+}
+
+.form__field:focus {
+  outline: 3px solid rgb(0, 102, 255);
+}
+
+[type='submit'] {
+  color: #fafaff;
+  background: #5d5dc5;
+  padding: 16px 32px;
+  cursor: pointer;
+  border: 0;
+  appearance: none;
+  border-radius: 8px;
+}
+
+.form__body {
+  position: relative;
+}
+
+.form__foot {
+  position: absolute;
+  top: 0;
+  right: 0;
+}

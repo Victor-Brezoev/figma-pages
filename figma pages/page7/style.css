@@ -1,0 +1,37 @@
+body {
+  font-size: 32px;
+  line-height: calc(40 / 32);
+  font-weight: 600;
+  color: #171740;
+}
+
+.container {
+  max-width: 1400px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.content {
+  padding-top: 48px;
+  padding-bottom: 50px;
+}
+
+.content__head {
+  margin-bottom: 24px;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: calc(40 / 32);
+}
+
+.content__logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 111px;
+}
+
+img {
+  filter: invert(42%) sepia(93%) saturate(20000%) hue-rotate(206deg)
+    brightness(119%) contrast(119%);
+}

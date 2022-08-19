@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Montserrat:wght@400;500&family=Poppins:wght@600&display=swap");
+
+body {
+  background: #e0e0ff;
+  font-family: "Inter" sans-serif;
+  font-size: 24px;
+  line-height: calc(32 / 24);
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.content {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.content__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: -12px;
+  margin-right: -12px;
+}
+
+.content__entry,
+.media {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.content__entry {
+  max-width: 792px;
+  margin-bottom: 48px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: calc(72 / 64);
+  color: #171740;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.text {
+  color: #242464;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.btn {
+  display: block;
+  border-radius: 8px;
+  padding: 16px 32px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: calc(24 / 18);
+  text-decoration: none;
+  text-align: center;
+}
+
+.list-buttons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0 -8px;
+}
+
+.list-buttons li {
+  padding: 0 8px;
+}
+
+.btn-primary {
+  background: #5555ff;
+  color: #ffffff;
+}
+
+.btn-secondary {
+  background: #fafaff;
+  color: #171740;
+}
+
+.content__media img {
+  border-radius: 16px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
+  .content__inner {
+    display: block;
+  }
+
+  .content__entry {
+    margin-bottom: 24px;
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 40px;
+    line-height: calc(48 / 40);
+    margin-bottom: 24px;
+  }
+
+  .text {
+    font-size: 18px;
+    line-height: calc(24 / 18);
+    margin-bottom: 24px;
+  }
+
+  .media img {
+    width: 100%;
+  }
+
+  .list-buttons {
+    display: block;
+  }
+
+  .list-buttons li:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  .list-buttons li:last-child {
+    margin-bottom: 24px;
+  }
+}
